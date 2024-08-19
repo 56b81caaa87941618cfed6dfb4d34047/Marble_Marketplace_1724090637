@@ -1,12 +1,14 @@
 {
     "component_name": "page_details_cards_component",
-    "id": "page_details_cards_component_1724090640.js",
+    "id": "page_details_cards_component_1724090640",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "/* Summary: Contains a section with three cards with black background and white text.\n  The three cards are side by side and each contains a detail name in bold above a detail value.\n*/\nVue.component(\"page_details_cards_component_1724090640\", {\n    template: `\n    <section id=\"page-details-cards-component\" class=\"py-8 bg-white\">\n        <h2 id=\"details-title\" class=\"text-lg font-semibold mb-5 pl-4\">Details</h2>\n        <ul id=\"details-list\" class=\"grid gap-4 min-[480px]:grid-cols-3 text-sm\">\n            <li id=\"project-length\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n                <div class=\"font-medium text-slate-200 text-slate-400\">Vast Selection</div>\n                <div class=\"text-slate-400\">Browse through thousands of unique marbles from collectors worldwide</div>\n            </li>\n            <li id=\"start-date\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n                <div class=\"font-medium\" id=\"start-date-des-1 text-slate-200 text-slate-400\">Secure Transactions</div>\n                <time class=\"text-slate-400\" id=\"start-time-des-1\">Buy and sell with confidence using our trusted payment system</time>\n            </li>\n            <li id=\"end-date\" class=\"px-5 py-4 rounded-lg bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\">\n                <div class=\"font-medium\" id=\"end-date-des-1 text-slate-200 text-slate-400\">Expert Community</div>\n                <time class=\"text-slate-400\" id=\"end-time-des-1\">Connect with fellow marble enthusiasts and learn from seasoned collectors</time>\n            </li>\n        </ul>\n    </section>\n    `,\n    data() {\n        return {\n            expanded: false,\n            tab: null,\n        };\n    },\n});\n\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
+    "x": 50,
+    "y": 50,
     "i": "__dropping-elem__",
     "minW": 3,
     "maxW": 12,
@@ -14,5 +16,6 @@
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
