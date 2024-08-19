@@ -12,7 +12,7 @@ Vue.component("dark_header_component_1724090640", {
                     <!-- Logo -->
                     <a class="flex items-center space-x-4" href="index.html" aria-label="Cruip">
                         <img id="site-logo" class="rounded-full" src="./images/logo.jpg" width="32" height="32" alt="Mary Rutt">
-                        <span id="site-name" class="text-slate-200">PERSON_NAME</span>
+                        <span id="site-name" class="text-slate-200">Marvin Marblemaster</span>
                     </a>
                 </div>
                 <!-- Right side -->
